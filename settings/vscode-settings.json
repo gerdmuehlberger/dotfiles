@@ -1,0 +1,6 @@
+{
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "azureResourceGroups.selectedSubscriptions": [],
+    "workbench.colorTheme": "GitHub Dark",
+    "extensions.ignoreRecommendations": true
+}
