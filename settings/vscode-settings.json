@@ -1,6 +1,11 @@
 {
+        "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true
+    },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "azureResourceGroups.selectedSubscriptions": [],
     "workbench.colorTheme": "GitHub Dark",
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
 }

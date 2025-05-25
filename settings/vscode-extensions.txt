@@ -35,3 +35,5 @@ rust-lang.rust-analyzer
 tamasfe.even-better-toml
 tobiah.language-pde
 twxs.cmake
+vscodevim.vim
+andenetalexander.vim-cheatsheet
