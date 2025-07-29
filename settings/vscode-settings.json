@@ -8,5 +8,7 @@
     "workbench.colorTheme": "GitHub Dark",
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.defaultProfile.linux": "zsh"
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh"
+
 }
