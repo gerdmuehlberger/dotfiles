@@ -1,1 +1,0 @@
-cat settings/vscode-extensions.txt | grep -v '^#' | xargs -L1 code --install-extension
