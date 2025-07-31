@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # install development software
 brew install python@3.13
 brew install rust
-brew install docker
+brew install --cask docker-desktop
 brew install --cask visual-studio-code
 brew install --cask godot
 

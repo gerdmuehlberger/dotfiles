@@ -1,8 +1,8 @@
 {
-        "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnType": true
-    },
+    "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnType": true
+},
     "javascript.updateImportsOnFileMove.enabled": "always",
     "azureResourceGroups.selectedSubscriptions": [],
     "workbench.colorTheme": "GitHub Dark",
