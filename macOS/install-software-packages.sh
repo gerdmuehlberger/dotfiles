@@ -17,3 +17,6 @@ brew install --cask bitwarden
 brew install --cask duckduckgo
 brew install --cask discord
 brew install --cask steam
+
+# install convenience
+brew install tree
