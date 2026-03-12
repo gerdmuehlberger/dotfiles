@@ -52,7 +52,7 @@
     "**/index.{py}": "${dirname}/${filename}.${extname}",
   },
 
-    // Moves terminal tabs to the left
+  //terminal settings
   "terminal.integrated.tabs.location": "right",
 
   // Enables GitHub Copilot instruction files - placed in .github/copilot-instructions.md, enables sharing instructions between collaborators on each project
