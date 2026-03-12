@@ -40,3 +40,4 @@ tamasfe.even-better-toml
 tobiah.language-pde
 twxs.cmake
 vscodevim.vim
+oderwat.indent-rainbow
