@@ -9,6 +9,56 @@
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.defaultProfile.osx": "zsh"
+    "terminal.integrated.defaultProfile.osx": "zsh",
+
+  // random
+    "breadcrumbs.enabled": true,
+    "editor.accessibilitySupport": "off",
+    "editor.formatOnSave": true,
+    "files.associations": {
+        ".env.*": "properties"
+    },
+
+  // terminal settings
+    "terminal.integrated.tabs.location": "right",
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+
+  // font settings
+    "editor.fontFamily": "'Fira Code', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.fontWeight": 400,
+    "terminal.integrated.fontFamily": "'Fira Code', monospace",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontWeight": 400,
+
+  // workspace look
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "python.languageServer": "Pylance",
+    "python-envs.pythonProjects": [],
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#007664"
+    },
+    "workbench.colorTheme":"Theme Darker",
+
+  // Enables GitHub Copilot instruction files - placed in .github/copilot-instructions.md, enables sharing instructions between collaborators on each project
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "github.copilot.chat.testGeneration.instructions": [
+    ],
+
+  // nice for cdk projects
+    "workbench.editor.customLabels.patterns": {
+    "**/infrastructure.{py}": "${dirname}/${filename}.${extname}",
+    "**/component.{py}": "${dirname}/${filename}.${extname}",
+    "**/config.{yaml}": "${dirname}/${filename}.${extname}",
+    "**/index.{py}": "${dirname}/${filename}.${extname}",
+    },
+
+  // exclude files
+    "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+    }
 
 }
